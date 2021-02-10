@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://qualfon.sharepoint.com/sites/UAT/SitePages/Home.aspx",
+      "customActions": {
+        "714b4207-ea31-46a8-9b41-83113fdae893": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CSSURL": "/Style%20Library/Qualfon/CustomStyle.css"
+          }
+        }
+      }
+    },
+    "qualfonMasterPage": {
+      "pageUrl": "https://qualfon.sharepoint.com/sites/UAT/SitePages/Home.aspx",
+      "customActions": {
+        "714b4207-ea31-46a8-9b41-83113fdae893": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CSSURL": "/Style%20Library/Qualfon/CustomStyle.css"
+          }
+        }
+      }
+    }
+  }
+}
